@@ -1,5 +1,5 @@
 
-### 8. Feature detection in the entire image tile
+### Feature detection in the entire image tile
 
 #import libraries
 import matplotlib.pyplot as plt
