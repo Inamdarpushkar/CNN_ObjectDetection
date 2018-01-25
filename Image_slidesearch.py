@@ -1,14 +1,13 @@
 
-# coding: utf-8
+### 8. Feature detection in the entire image tile
 
-# In[91]:
-
+#import libraries
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
 import numpy as np
 
-im_age=cv2.imread('/Users/Pushkar/Downloads/ships-in-satellite-imagery/scenes/sfbay_1.png')
+im_age=cv2.imread('path')
 im_age=cv2.cvtColor(im_age, cv2.COLOR_BGR2GRAY)
 
 height=len(im_age[0])
@@ -22,7 +21,7 @@ plt.figure(1, figsize = (15, 30))
 plt.imshow(image_array, cmap='gray')
 plt.show()
 
-
+#clipping image to predict
 def clipped(x, y):
     #Area Of Interst (AOI)
     AOI = np.arange(1*80*80).reshape(1, 80, 80)
@@ -35,15 +34,13 @@ def clipped(x, y):
     sys.stdout.write('\rX_coordinate:{0} Y_coordinate:{1}  '.format(x, y))
     return AOI
 
-
+#to check distance
 def dist(x, y, size, coordinates):
     result = True
     for point in coordinates:
         if x+size > point[0][0] and x-size < point[0][0] and y+size > point[0][1] and y-size < point[0][1]:
             result = False
     return result
-
-
 
 
 try:
@@ -59,8 +56,8 @@ try:
 except IndexError:
     pass
 
-
-im = np.array(Image.open('/Users/Pushkar/Downloads/ships-in-satellite-imagery/scenes/sfbay_1.png'), dtype=np.uint8)
+#test image
+im = np.array(Image.open('path2'), dtype=np.uint8)
 
 def bounding_boxe(coordinates,im):
     fig,ax = plt.subplots(1)
@@ -71,4 +68,3 @@ def bounding_boxe(coordinates,im):
     return plt.show()
 
 bounding_boxe(AOI_coordinates,im)
-
