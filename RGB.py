@@ -1,8 +1,6 @@
 
-# coding: utf-8
 
-# In[ ]:
-
+####  Designing and trainig a CNN model
 #layers
 model = Sequential()
 
@@ -33,6 +31,5 @@ model.add(Activation('softmax'))
 #compile
 model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=["accuracy"])
 
-
+#model fitting
 hist = model.fit(X_train, y_train, batch_size=32, nb_epoch=17, verbose=1, validation_split=0.2)
-
