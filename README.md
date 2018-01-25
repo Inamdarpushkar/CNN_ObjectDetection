@@ -9,7 +9,7 @@ Advancement of computer vision algorithms, remote sensing, and geospatial techno
 <img width="1184" alt="screen shot 2018-01-25 at 8 22 38 am" src="https://user-images.githubusercontent.com/28696943/35399432-0c0fa6b8-01a9-11e8-87a8-2ca9657742c0.png">
 
 ##  Results 
-### (Left (Grayscale input),RIght(RGB input))
+### (Left (Grayscale input),Right(RGB input))
 
 <img width="973" alt="screen shot 2018-01-25 at 8 13 29 am" src="https://user-images.githubusercontent.com/28696943/35399128-6d0d74c8-01a8-11e8-8c61-bf5652e6a396.png">
 
