@@ -23,6 +23,6 @@ FN (False Negative)
 
 ### Credits
 
-This project has used openly licensed Planet satellite imagery collected over the San Francisco Bay area, distributed by a Kaggle user.
+This project has used openly licensed Planet satellite imagery collected over the San Francisco Bay area, and provided by a Kaggle user.
 1. Satellite Image Agency: Planet's Open California dataset: https://www.planet.com/products/open-california/
-2. Distributed by a Kaggle user: rhammel @ https://www.kaggle.com/rhammell/ships-in-satellite-imagery/data
+2. Provided by a Kaggle user: rhammel @ https://www.kaggle.com/rhammell/ships-in-satellite-imagery/data
