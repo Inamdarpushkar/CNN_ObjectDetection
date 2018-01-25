@@ -12,3 +12,6 @@ Advancement of computer vision algorithms, remote sensing, and geospatial techno
 <img width="973" alt="screen shot 2018-01-25 at 8 13 29 am" src="https://user-images.githubusercontent.com/28696943/35399128-6d0d74c8-01a8-11e8-8c61-bf5652e6a396.png">
 
 <img width="973" alt="screen shot 2018-01-25 at 8 13 48 am" src="https://user-images.githubusercontent.com/28696943/35399144-76b43ef8-01a8-11e8-91dc-49e36b06b18b.png">
+
+<img width="153" alt="screen shot 2018-01-25 at 8 22 56 am" src="https://user-images.githubusercontent.com/28696943/35399447-18d8ac3c-01a9-11e8-9f85-e161311e91f2.png">
+
