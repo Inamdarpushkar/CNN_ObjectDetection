@@ -17,8 +17,8 @@ Advancement of computer vision algorithms, remote sensing, and geospatial techno
 
 <img width="153" alt="screen shot 2018-01-25 at 8 22 56 am" src="https://user-images.githubusercontent.com/28696943/35399447-18d8ac3c-01a9-11e8-9f85-e161311e91f2.png">
 
-TP (True Positive)
-FP (False Positive)
+TP (True Positive),
+FP (False Positive),
 FN (False Negative)
 
 ### Credits
