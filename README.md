@@ -21,7 +21,7 @@ TP (True Positive),
 FP (False Positive),
 FN (False Negative)
 
-### Credits
+### Sources
 
 This project has used openly licensed Planet satellite images collected over the San Francisco Bay area, and provided by a Kaggle user.
 1. Planet Labs, Inc. (Earth imaging company): https://www.planet.com/products/open-california/
